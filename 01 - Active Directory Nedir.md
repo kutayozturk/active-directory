@@ -10,7 +10,7 @@ Bu servis içerisinde yer alan Group Policy yönetim aracı ile çeşitli kısı
 
 - Bunubnla birlikte tüm işlemlerin geçici olarak yer aldığı, değişikliklerin veritabanına yazılmadan önce çeşitli sebeplerden ötürü saklandığı edb.log isimli dosya da, Active Directory servisinin çalışmasında kritik rol oynar.
 
-### Active Directory Özellikleri
+## Active Directory Özellikleri
 - Yönetilebilirlik
 - Genişletilebilirlik
 - Güvenlik Entegrasyonu
