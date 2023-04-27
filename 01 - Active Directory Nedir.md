@@ -28,3 +28,37 @@ Active Directory'nin mantıksal katmanı veri deposunda bulunan bilgilerin nası
 - Organizational Unit
 - Global Catalog
 - LDAP Yapısı
+
+
+## Active Directory Fiziksel Yapısı
+
+Active Directory içerisinde fiziksel yapı, mantıksal yapıdan bağımsız bir mimariye sahiptir. Mantıksal yapı ile network kaynakları organize edilirken, fiziksel yapı ile network trafiğinin kontrolü ve konfigürasyonu gerçekleştirilebilir. Active Directory'nin fiziksel yapsını; DC (Domain Controller) ve Site'lar oluşuturur. 
+- Site
+- Domain Controller
+
+## Active Directory Güvenlik Sorunları
+
+Yapı içinde doğru şekilde kurgulanmamış olması birçok güvenlik sorununu beraberinde getirmektedir. Burada dikkat etmemiz gereken noktalar parola politikaları, hesap yetkileri, loglama yöntemleri ve aralıkları şeklinde bazı parametrelerdir.
+
+## Active Directory Güvenliği
+
+- Hesap Bilgilerinin Kontrol EDilmesi ve Değiştirilmesi
+- Kritik Grup Üyeliklerinin Kontrol EDilmesi
+- Yapı İçerisindeki Kullanıcı Hesaplarının Takibi
+- Kimlik Doğrulama
+- Lockout Yöntemi
+
+## Active Directory loglama
+
+Loglama yöntemi, yapılan tüm eylemlerin kayıt altına alınmasıdır. Bu yöntem ile yapılan tüm eylemler denetlenebilir ve kritik durumlarda bazı eylemleri tespit etmemizi sağlar.
+
+Active Directory de yapı oldukça önemlidir. Bu yapıyı belirli aralıklarla takip etmemiz ve incelememiz gereklidir.
+
+## Group Policy Management ile Güvenliğin Sağlanması
+
+- Kontrol paneli erişimi
+- Bilgisayarlara takılan cihazların denetimi
+- Yazılım yüklenmesinin denetimi
+- Parola kullanım süresi ve uzunluğu
+- Komut satırı erişimi
+
